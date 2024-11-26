@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legislação - Dia Interamericano do Ministério Público</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Incluir o CSS do AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<style>
+    /* Estilos para a página Legislação */
+/* Estilos para a página Legislação */
+.legislation {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.legislation .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.legislation h2 {
+    font-size: 2.5rem;
+    color: #8b0000;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+
+}
+
+.legislation h3 {
+    font-size: 2rem;
+    color: #8b0000;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15); /* Sombra sutil */
+
+}
+
+.legislation p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: justify;
+
+}
+
+.legislation .legislation-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.legislation .section-content {
+    flex: 1 1 45%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 1ms ease;
+}
+
+.legislation .section-content:hover {
+    transform: translateY(-5px); /* Efeito de elevação */
+}
+
+.legislation .section-content ul {
+    padding-left: 20px;
+}
+
+.legislation .section-content ul li {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: justify;
+
+}
+
+.legislation .section-content ul li strong {
+    color: #8b0000;
+    font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .legislation .legislation-items {
+        flex-direction: column;
+    }
+
+    .legislation .section-content {
+        flex: 1 1 100%;
+    }
+}
+
+/* Estilos para o botão de link */
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #8b0000;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-link:hover {
+    background-color: #a52a2a;
+    transform: translateY(-3px); /* Efeito de elevação no hover */
+}
+
+.btn-link:focus {
+    outline: none;
+    box-shadow: 0 0 5px #8b0000;
+}
+
+
+</style>
+<body>
+    <header>
+        <div class="banner">
+            <a href="index.html">
+                <h1>Dia Interamericano do Ministério Público</h1>
+            </a>
+        </div>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="missao_valores.html">Missão e Valores</a>
+            <a href="historia.html">História</a>
+            <a href="legislacao.html">Legislação</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="legislation">
+            <div class="container">
+                <div class="section-content legislation-intro" data-aos="fade-up">
+                    <h2>Legislação do Ministério Público</h2>
+                    <p>O Ministério Público, como instituição independente, possui uma base legal sólida que orienta e estrutura suas atividades no cumprimento da justiça, defesa dos direitos humanos e da ordem pública. Diversas normas constitucionais e infraconstitucionais regulamentam suas atribuições e garantem sua autonomia.</p>
+                </div>
+
+                <!-- Container flex para as seções lado a lado -->
+                <div class="legislation-items">
+                    <!-- Constituição Federal -->
+                    <div class="section-content legislation-item" data-aos="fade-up">
+                        <h3>Constituição Federal de 1988</h3>
+                        <p>A Constituição de 1988 estabeleceu a independência do Ministério Público, conferindo-lhe autonomia funcional e administrativa. Esta constituição garante o papel essencial do Ministério Público na defesa dos direitos fundamentais e da ordem jurídica do país.</p>
+                        <ul>
+                            <li><strong>Artigo 127:</strong> Define a natureza, funções e atribuições do Ministério Público.</li>
+                            <li><strong>Artigo 129:</strong> Descreve as funções institucionais, como a defesa da ordem jurídica e do regime democrático.</li>
+                        </ul>
+                        <!-- Botão com link para a fonte -->
+                        <a href="https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm" class="btn-link" target="_blank">Leia a Constituição Federal</a>
+                    </div>
+
+                    <!-- Leis Orgânicas do Ministério Público -->
+                    <div class="section-content legislation-item" data-aos="fade-up">
+                        <h3>Leis Orgânicas do Ministério Público</h3>
+                        <p>O Ministério Público é regido por uma série de leis complementares e específicas, que detalham a sua organização e funcionamento. As leis orgânicas garantem a estruturação do Ministério Público, suas atribuições e a proteção de sua autonomia.</p>
+                        <ul>
+                            <li><strong>Lei nº 8.625/1993:</strong> Lei Orgânica do Ministério Público dos Estados, regula a atuação dos Ministérios Públicos Estaduais.</li>
+                            <li><strong>Lei nº 8.078/1990:</strong> Código de Defesa do Consumidor, no qual o Ministério Público exerce um papel de fiscalização e defesa dos direitos do consumidor.</li>
+                        </ul>
+                        <!-- Botão com link para a fonte -->
+                        <a href="http://www.planalto.gov.br/ccivil_03/leis/l8625.htm" class="btn-link" target="_blank">Leia a Lei Orgânica</a>
+                    </div>
+
+                    <!-- Leis de Acesso à Justiça -->
+                    <div class="section-content legislation-item" data-aos="fade-up">
+                        <h3>Leis de Acesso à Justiça</h3>
+                        <p>O Ministério Público também possui um papel fundamental em garantir o acesso à justiça para todos os cidadãos, especialmente para os mais vulneráveis. Algumas das leis que fortalecem o acesso à justiça incluem:</p>
+                        <ul>
+                            <li><strong>Lei nº 13.105/2015:</strong> Novo Código de Processo Civil, que prevê o acesso mais amplo à justiça e a atuação do Ministério Público em processos que envolvem direitos difusos.</li>
+                            <li><strong>Lei nº 12.850/2013:</strong> Define a organização criminosa e reforça o papel do Ministério Público no combate à criminalidade organizada.</li>
+                        </ul>
+                        <!-- Botão com link para a fonte -->
+                        <a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm" class="btn-link" target="_blank">Leia a Lei de Acesso à Justiça</a>
+                    </div>
+
+                    <!-- Convenções Internacionais -->
+                    <div class="section-content legislation-item" data-aos="fade-up">
+                        <h3>Convenções Internacionais</h3>
+                        <p>O Ministério Público também se baseia em uma série de convenções internacionais para garantir os direitos humanos e o combate a práticas ilícitas, como a corrupção, o tráfico de pessoas e outras violações dos direitos fundamentais.</p>
+                        <ul>
+                            <li><strong>Convenção Americana sobre Direitos Humanos (Pacto de São José da Costa Rica):</strong> O Ministério Público atua na defesa dos direitos estabelecidos por essa convenção, como o direito à vida, à liberdade e à segurança.</li>
+                            <li><strong>Convenção da ONU contra a Corrupção (2003):</strong> O Ministério Público desempenha um papel ativo no combate à corrupção, utilizando-se dessa convenção internacional para buscar responsabilização e punição dos corruptos.</li>
+                        </ul>
+                        <!-- Botão com link para a fonte -->
+                        <a href="https://www.gov.br/cgu/pt-br/assuntos/articulacao-internacional-1/convencao-da-onu" class="btn-link" target="_blank">Leia sobre a Convenção da ONU</a>
+                    </div>
+                </div> <!-- End legislation-items -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dia Interamericano do Ministério Público. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Incluir o script do AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Inicializando o AOS
+        AOS.init({
+            duration: 1000, // Duração da animação
+            once: true,     // A animação ocorre apenas uma vez
+        });
+    </script>
+</body>
+</html>
